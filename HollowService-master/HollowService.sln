@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HollowService", "HollowService\HollowService.csproj", "{42ADD663-01C5-4859-BDF5-261557975D0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HollowService.UnitTest", "HollowService.UnitTest\HollowService.UnitTest.csproj", "{411AEBA1-A8E9-4F2B-A5D6-51FDD789ADE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HollowService.UnitTest", "HollowService.UnitTest\HollowService.UnitTest.csproj", "{411AEBA1-A8E9-4F2B-A5D6-51FDD789ADE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".circleci", ".circleci", "{837A99CE-60DF-4CCD-9783-00A6194E7A39}"
+	ProjectSection(SolutionItems) = preProject
+		config.yml = config.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +22,6 @@ Global
 		{42ADD663-01C5-4859-BDF5-261557975D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42ADD663-01C5-4859-BDF5-261557975D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42ADD663-01C5-4859-BDF5-261557975D0B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E021D93-478B-4566-8CE5-1EBCB35DA0A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E021D93-478B-4566-8CE5-1EBCB35DA0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E021D93-478B-4566-8CE5-1EBCB35DA0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E021D93-478B-4566-8CE5-1EBCB35DA0A4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{411AEBA1-A8E9-4F2B-A5D6-51FDD789ADE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{411AEBA1-A8E9-4F2B-A5D6-51FDD789ADE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{411AEBA1-A8E9-4F2B-A5D6-51FDD789ADE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
